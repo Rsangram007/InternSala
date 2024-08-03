@@ -1,0 +1,46 @@
+/* Container for the Dashboard */
+.dashboard-container {
+    max-width: 800px; /* Limit the width of the dashboard */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Title styling */
+  .dashboard-container h2 {
+    font-size: 28px; /* Font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+    color: #333; /* Dark gray color for text */
+    text-align: center; /* Center the title */
+  }
+  
+  /* Total cars paragraph styling */
+  .dashboard-container p {
+    font-size: 20px; /* Font size for total cars text */
+    margin-bottom: 20px; /* Space below the paragraph */
+    color: #555; /* Medium gray color */
+  }
+  
+  /* List styling */
+  .dashboard-container ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+  }
+  
+  /* List item styling */
+  .dashboard-container li {
+    padding: 10px; /* Padding inside each list item */
+    margin-bottom: 10px; /* Space below each list item */
+    background-color: #fff; /* White background for list items */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  /* List item hover effect */
+  .dashboard-container li:hover {
+    background-color: #f1f1f1; /* Slightly darker background on hover */
+  }
+  

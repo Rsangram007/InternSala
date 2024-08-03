@@ -1,0 +1,54 @@
+/* Container for the EditCar component */
+.edit-car-container {
+    max-width: 600px; /* Limit the width of the form */
+    margin: 50px auto; /* Center the form vertically and horizontally */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #ffffff; /* White background for contrast */
+  }
+  
+  /* Title styling */
+  .edit-car-container h2 {
+    font-size: 24px; /* Font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+    color: #333; /* Dark gray color for text */
+    text-align: center; /* Center the title */
+  }
+  
+  /* Input field styling */
+  .edit-car-container input {
+    width: 100%; /* Full width input fields */
+    padding: 10px; /* Padding inside the input */
+    margin: 10px 0; /* Space above and below the input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for input text */
+  }
+  
+  /* Button styling */
+  .edit-car-container button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside the button */
+    margin-top: 20px; /* Space above the button */
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  /* Button hover effect */
+  .edit-car-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red; /* Red color for error messages */
+    font-size: 14px; /* Font size for error text */
+    text-align: center; /* Center the error message */
+  }
+  

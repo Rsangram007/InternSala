@@ -1,0 +1,50 @@
+/* Container for the Add Car form */
+.add-car-container {
+    max-width: 500px; /* Limit the width of the form */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Title styling */
+  .add-car-container h2 {
+    font-size: 28px; /* Font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+    color: #333; /* Dark gray color for text */
+    text-align: center; /* Center the title */
+  }
+  
+  /* Form styling */
+  .add-car-container form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+  }
+  
+  /* Input field styling */
+  .add-car-container input {
+    margin-bottom: 15px; /* Space between inputs */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for input text */
+  }
+  
+  /* Button styling */
+  .add-car-container button {
+    padding: 10px; /* Padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the button */
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white; /* White text color */
+    font-size: 16px; /* Font size for button text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  /* Button hover effect */
+  .add-car-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
